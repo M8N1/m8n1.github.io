@@ -44,6 +44,10 @@
     opacity: 70%;
     text-decoration: none;
 }
+a[href^="tel"] {
+    color: inherit;
+    text-decoration: none;
+}
 .footer-email {
     display: flex;
     align-items: center;
