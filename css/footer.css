@@ -42,7 +42,6 @@
     margin-left: 10px;
     color: #fff;
     opacity: 70%;
-    text-decoration: none;
 }
 a[href^="tel"] {
     color: #fff;
@@ -76,8 +75,6 @@ a[href^="tel"] {
     }
     .footer-number > p {
         text-decoration: none;
-        color: #fff;
-        opacity: 70%;
         font-size: 14px;
     }
 }
