@@ -36,7 +36,8 @@
 .footer-number {
     display: flex;
 }
-.footer-number > p {
+
+.tel {
     margin: 15px 0;
     margin-left: 10px;
     color: #fff;
