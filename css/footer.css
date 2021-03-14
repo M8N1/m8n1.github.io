@@ -45,7 +45,7 @@
     text-decoration: none;
 }
 a[href^="tel"] {
-    color: inherit;
+    color: #fff;
     text-decoration: none;
 }
 .footer-email {
