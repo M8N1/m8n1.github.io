@@ -12,6 +12,7 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
+    margin-left: -54px;
 }
 .photo-logo > img {
     width: 83px;
@@ -20,7 +21,11 @@
 .photo-logo > h1 {
     text-transform: uppercase;
     font-size: 30px;
-    margin-left: 10px;
+    color: #cd3333;
+    margin-left: 0px;
+}
+.photo-logo > h1 > span {
+    color: #645453;
 }
 .photo-logo > h1::after {
     display: block;
