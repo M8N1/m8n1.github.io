@@ -179,7 +179,16 @@ nav > ul {
 @media screen and (max-width: 500px) {
     .header-numbers {
         margin-left: 0px;
-        margin-right: 45px;
+        margin-right: 75px;
         padding-right: 0;
+    }
+    .header-numbers > p {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .header-numbers > p {
+        margin-top: 0px;
     }
 }

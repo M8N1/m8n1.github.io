@@ -1,6 +1,6 @@
 .footer {
     background-color: #645452;
-    padding: 20px 0;
+    padding: 10px;
 }
 .footer-flex {
     display: flex;
@@ -36,6 +36,19 @@
 .footer-number {
     display: flex;
 }
+.footer-booking {
+    margin: 0 0 0 0;
+}
+.footer-booking > img {
+    width: 115px;
+    height: 20px;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+.footer-booking > img:hover {
+    opacity: 70%;
+    transition: 0.2s;
+}
 
 .tel {
     margin: 15px 0;
@@ -43,6 +56,11 @@
     color: #fff;
     opacity: 70%;
     font-size: 14px;
+    transition: 0.2s;
+}
+.tel:hover {
+    opacity: 50%;
+    transition: 0.2s;
 }
 a[href^="tel"] {
     color: #fff;
@@ -77,5 +95,10 @@ a[href^="tel"] {
     .footer-number > p {
         text-decoration: none;
         font-size: 14px;
+    }
+}
+@media screen and (max-width: 321px) {
+    a[href^="tel"] {
+        font-size: 10px;
     }
 }
